@@ -1,0 +1,122 @@
+{
+	"nav": {
+		"about": "Biz haqimizda",
+		"products": "Maxsulotlar",
+		"thoughts": "Fikrlar",
+		"gallery": "Galareya",
+		"contact": "Aloqa",
+		"search": "Qidiring..."
+	},
+	"hero": {
+		"title": "Ishonchli qulf — xavfsiz hayot kafolati",
+		"description": "MDF va alyumin eshiklar uchun zamonaviy, mustahkam va uzoq muddat xizmat qiladigan qulflarni ishlab chiqaramiz.",
+		"cta": "Buyurtma berish"
+	},
+	"about": {
+		"title": "Custode — ishonch va xavfsizlik ramzi",
+		"description": "Custode kompaniyasi MDF va alyumin eshiklar uchun yuqori sifatli qulflar ishlab chiqaradi. Zamonaviy texnologiyalar va mustahkam materiallar asosida yaratilgan mahsulotlarimiz xavfsizlik, chidamlilik va qulaylikni ta’minlaydi. Har bir detalga e’tibor berib, mijozlarimizga ishonchli va uzoq muddat xizmat qiladigan yechimlar taklif etamiz.",
+		"stats": {
+			"founded": "Kompaniyaning tashkil topgani",
+			"employees": "Kompaniyadagi ishchilar soni",
+			"importers": "Import qiluvchi kompaniyalar"
+		}
+	},
+	"products": {
+		"title": "Maxsulotlar",
+		"items": {
+			"ms_212_c_be": {
+				"name": "MS 212 C-BE",
+				"description": "Galingas benzininis grandininis pjūklas malkoms pjauti ir aplinkai prižiūrėti",
+				"cta": "Buyurtma berish"
+			}
+		}
+	},
+	"thoughts": {
+		"title": "Mijozlarimiz fikrlari",
+		"description": "Biz uchun eng katta baho — bu mijozlarimizning ishonchi. Custode mahsulotlaridan foydalanganlar sifat, ishonchlilik va qulaylikni yuqori baholashadi. Ularning ijobiy fikrlari bizni yanada rivojlanishga undaydi.",
+		"items": [
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"time": "2 oy oldin",
+				"image": "public/images/reviews/review1.webp",
+				"stars": 5
+			},
+			{
+				"name": "Shamals",
+				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"time": "2 kun oldin",
+				"image": "public/images/reviews/review2.webp",
+				"stars": 4
+			},
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"time": "2 soat oldin",
+				"image": "public/images/reviews/review3.webp",
+				"stars": 4
+			},
+			{
+				"name": "Shamals",
+				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"time": "2 kun oldin",
+				"image": "public/images/reviews/review4.webp",
+				"stars": 5
+			},
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"time": "2 soat oldin",
+				"image": "public/images/reviews/review5.webp",
+				"stars": 5
+			}
+		]
+	},
+	"gallery": {
+		"title": "Galareya",
+		"view": "Rasmlarni ko’rish"
+	},
+	"contact": {
+		"title": "Biz bilan oson bog’laning",
+		"email_contact": "Email orqali bog’laning",
+		"contact_info": "Kontakt ma’lumotlari",
+		"form": {
+			"first_name": "Ismingiz",
+			"first_name_placeholder": "Ismingizni kiriting...",
+			"last_name": "Familiyangiz",
+			"phone": "Raqam",
+			"last_name_placeholder": "Familiyangizni kiriting...",
+			"email": "Emailingiz",
+			"email_placeholder": "Emailingizni kiriting...",
+			"message": "Habaringiz",
+			"address": "Manzil",
+			"message_placeholder": "Habaringizni kiriting...",
+			"submit": "Yuborish",
+			"email_info": "Email"
+		},
+		"info": {
+			"phone_1": "+998 99 132 43 45",
+			"phone_2": "+998 99 432 32 32",
+			"address": "Uzb Res. Toshkent sh. Sh Rashidov 24",
+			"email": "custode@info.com"
+		}
+	},
+	"footer": {
+		"sections": "Bo’limlar",
+		"contact": "Bog’lanish",
+		"description": "Custode kompaniyasi MDF va alyumin eshiklar uchun yuqori sifatli qulflar ishlab chiqaradi. Zamonaviy texnologiyalar va mustahkam materiallar asosida yaratilgan mahsulotlarimiz xavfsizlik, chidamlilik va qulaylikni ta’minlaydi. Har bir detalga e’tibor berib, mijozlarimizga ishonchli va uzoq muddat xizmat qiladigan yechimlar taklif etamiz.",
+		"links": {
+			"about": "Biz haqimizda",
+			"gallery": "Galareya",
+			"products": "Maxsulotlar",
+			"contact": "Aloqa",
+			"thoughts": "Fikrlar"
+		},
+		"contacts": {
+			"email": "custode@gmail.com",
+			"phone_1": "+998 99 132 43 45",
+			"phone_2": "+998 99 132 43 45"
+		},
+		"copyright": "Custode. All rights reserved."
+	}
+}

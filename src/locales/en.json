@@ -1,0 +1,122 @@
+{
+	"nav": {
+		"about": "About us",
+		"products": "Products",
+		"thoughts": "Testimonials",
+		"gallery": "Gallery",
+		"contact": "Contact",
+		"search": "Search..."
+	},
+	"hero": {
+		"title": "A reliable lock - guarantees your safe life",
+		"description": "We manufacture modern, durable and long-lasting locks for MDF and aluminum doors.",
+		"cta": "Order now"
+	},
+	"about": {
+		"title": "Custode — symbol of trust and safety",
+		"description": "Custode manufactures high-quality locks for MDF and aluminum doors. Our products, created using modern technologies and durable materials, ensure security, durability and convenience. We pay attention to every detail and offer reliable long-term solutions.",
+		"stats": {
+			"founded": "Company founding date",
+			"employees": "Number of employees",
+			"importers": "Importing companies"
+		}
+	},
+	"products": {
+		"title": "Products",
+		"items": {
+			"ms_212_c_be": {
+				"name": "MS 212 C-BE",
+				"description": "Powerful petrol chainsaw for cutting firewood and maintenance work",
+				"cta": "Order now"
+			}
+		}
+	},
+	"thoughts": {
+		"title": "What Our Customers Say",
+		"description": "The greatest value for us is the trust of our customers. People who use Custode products highly appreciate the quality, reliability, and convenience. Their positive feedback motivates us to keep improving and growing.",
+		"items": [
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"time": "2 months ago",
+				"image": "public/images/reviews/review1.webp",
+				"stars":5
+			},
+			{
+				"name": "Shamals",
+				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"time": "2 days ago",
+				"image": "public/images/reviews/review2.webp",
+				"stars":4
+			},
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"time": "2 hours ago",
+				"image": "public/images/reviews/review3.webp",
+				"stars":5
+			},
+			{
+				"name": "Shamals",
+				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"time": "2 days ago",
+				"image": "public/images/reviews/review4.webp",
+				"stars":4
+			},
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"time": "2 hours ago",
+				"image": "public/images/reviews/review5.webp",
+				"stars":5
+			}
+		]
+	},
+	"gallery": {
+		"title": "Gallery",
+		"view": "View images"
+	},
+	"contact": {
+		"title": "Contact us easily",
+		"email_contact": "Contact via email",
+		"contact_info": "Contact information",
+		"form": {
+			"first_name": "First name",
+			"first_name_placeholder": "Enter your first name...",
+			"last_name": "Last name",
+			"phone": "Phone",
+			"last_name_placeholder": "Enter your last name...",
+			"email": "Your email",
+			"email_placeholder": "Enter your email...",
+			"message": "Message",
+			"address": "Address",
+			"message_placeholder": "Enter your message...",
+			"submit": "Send",
+			"email_info":"Email"
+		},
+		"info": {
+			"phone_1": "+998 99 132 43 45",
+			"phone_2": "+998 99 432 32 32",
+			"address": "Tashkent, Uzbekistan, Sh. Rashidov 24",
+			"email": "custode@info.com"
+		}
+	},
+	"footer": {
+		"sections": "Sections",
+		"contact": "Contact",
+		"description": "Custode company produces high-quality locks for MDF and aluminum doors. Our products, created using modern technologies and durable materials, provide security, durability and convenience. We pay attention to every detail and offer our customers reliable and long-lasting solutions.",
+		"links": {
+			"about": "About us",
+			"gallery": "Gallery",
+			"products": "Products",
+			"contact": "Contact",
+			"thoughts": "Testimonials"
+		},
+		"contacts": {
+			"email": "custode@gmail.com",
+			"phone_1": "+998 99 132 43 45",
+			"phone_2": "+998 99 132 43 45"
+		},
+		"copyright": "Custode. All rights reserved."
+	}
+}

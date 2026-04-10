@@ -1,0 +1,121 @@
+{
+	"nav": {
+		"about": "Chi siamo",
+		"products": "Prodotti",
+		"thoughts": "Recensioni",
+		"gallery": "Galleria",
+		"contact": "Contatti",
+		"search": "Cerca..."
+	},
+	"hero": {
+		"title": "Serratura affidabile — garanzia di sicurezza",
+		"description": "Produciamo serrature moderne e resistenti per porte MDF e in alluminio.",
+		"cta": "Ordina ora"
+	},
+	"about": {
+		"title": "Custode — simbolo di fiducia e sicurezza",
+		"description": "Custode produce serrature di alta qualità per porte in MDF e alluminio. I nostri prodotti, realizzati con tecnologie moderne e materiali resistenti, garantiscono sicurezza, durata e praticità. Prestiamo attenzione a ogni dettaglio e offriamo soluzioni affidabili a lungo termine.",
+		"stats": {
+			"founded": "Data di fondazione",
+			"employees": "Numero di dipendenti",
+			"importers": "Aziende importatrici"
+		}
+	},
+	"products": {
+		"title": "Prodotti",
+		"items": {
+			"ms_212_c_be": {
+				"name": "MS 212 C-BE",
+				"description": "Potente motosega a benzina per lavori di manutenzione",
+				"cta": "Ordina ora"
+			}
+		}
+	},
+	"thoughts": {
+		"title": "Opinioni dei nostri clienti",
+		"description": "Il valore più grande per noi è la fiducia dei nostri clienti. Chi utilizza i prodotti Custode apprezza molto la qualità, l'affidabilità e la comodità. I loro feedback positivi ci motivano a crescere e migliorare continuamente.",
+		"items": [
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"time": "2 mesi fa",
+				"image": "public/images/reviews/review1.webp",
+				"stars":5
+			},
+			{
+				"name": "Shamals",
+				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"time": "2 giorni fa",
+				"image": "public/images/reviews/review2.webp",
+				"stars":4
+			},
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"time": "2 ore fa",
+				"image": "public/images/reviews/review3.webp",
+				"stars":4
+			},{
+				"name": "Shamals",
+				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"time": "2 giorni fa",
+				"image": "public/images/reviews/review4.webp",
+				"stars":5
+			},
+			{
+				"name": "Shamsiddin Shoraximov",
+				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"time": "2 ore fa",
+				"image": "public/images/reviews/review5.webp",
+				"stars":5
+			}
+		]
+	},
+	"gallery": {
+		"title": "Galleria",
+		"view": "Visualizza immagini"
+	},
+	"contact": {
+		"title": "Contattaci facilmente",
+		"email_contact": "Contatta via email",
+		"contact_info": "Informazioni di contatto",
+		"form": {
+			"first_name": "Nome",
+			"first_name_placeholder": "Inserisci il tuo nome...",
+			"last_name": "Cognome",
+			"phone": "Telefono",
+			"last_name_placeholder": "Inserisci cognome...",
+			"email": "Email",
+			"email_placeholder": "Inserisci email...",
+			"message": "Messaggio",
+			"address": "Indirizzo",
+			"message_placeholder": "Inserisci messaggio...",
+			"submit": "Invia",
+			"email_info":"Email"
+		},
+		"info": {
+			"phone_1": "+998 99 132 43 45",
+			"phone_2": "+998 99 432 32 32",
+			"address": "Tashkent, Uzbekistan, Sh. Rashidov 24",
+			"email": "custode@info.com"
+		}
+	},
+	"footer": {
+		"sections": "Sezioni",
+		"contact": "Contatti",
+		"description": "L'azienda Custode produce serrature di alta qualità per porte in MDF e alluminio. I nostri prodotti, realizzati con tecnologie moderne e materiali resistenti, offrono sicurezza, durata e praticità. Prestiamo attenzione a ogni dettaglio e offriamo ai nostri clienti soluzioni affidabili e durature.",
+		"links": {
+			"about": "Chi siamo",
+			"gallery": "Galleria",
+			"products": "Prodotti",
+			"contact": "Contatti",
+			"thoughts": "Recensioni"
+		},
+		"contacts": {
+			"email": "custode@gmail.com",
+			"phone_1": "+998 99 132 43 45",
+			"phone_2": "+998 99 132 43 45"
+		},
+		"copyright": "Custode. Tutti i diritti riservati."
+	}
+}
