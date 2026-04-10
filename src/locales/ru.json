@@ -39,34 +39,34 @@
 				"name": "Shamsiddin Shoraximov",
 				"text": "Мы использовали замки Custode в нескольких наших проектах и остались очень довольны результатом. Качество высокое, установка простая, работа плавная. Самое главное — они надежные. Смело рекомендую.",
 				"time": "2 месяца назад",
-				"image": "public/images/reviews/review1.webp",
+				"image": "/images/reviews/review1.webp",
 				"stars":5
 			},
 			{
 				"name": "Shamals",
 				"text": "Мы использовали замки Custode в нескольких наших проектах и остались очень довольны результатом. Качество высокое, установка простая, работа плавная. Самое главное — они надежные. Смело рекомендую.",
 				"time": "2 дня назад",
-				"image": "public/images/reviews/review2.webp",
+				"image": "/images/reviews/review2.webp",
 				"stars":4
 			},
 			{
 				"name": "Shamsiddin Shoraximov",
 				"text": "Мы использовали замки Custode в нескольких наших проектах и остались очень довольны результатом. Качество высокое, установка простая, работа плавная. Самое главное — они надежные. Смело рекомендую.",
 				"time": "2 часа назад",
-				"image": "public/images/reviews/review3.webp",
+				"image": "/images/reviews/review3.webp",
 				"stars":4
 			},{
 				"name": "Shamals",
 				"text": "Мы использовали замки Custode в нескольких наших проектах и остались очень довольны результатом. Качество высокое, установка простая, работа плавная. Самое главное — они надежные. Смело рекомендую.",
 				"time": "2 дня назад",
-				"image": "public/images/reviews/review4.webp",
+				"image": "/images/reviews/review4.webp",
 				"stars":5
 			},
 			{
 				"name": "Shamsiddin Shoraximov",
 				"text": "Мы использовали замки Custode в нескольких наших проектах и остались очень довольны результатом. Качество высокое, установка простая, работа плавная. Самое главное — они надежные. Смело рекомендую.",
 				"time": "2 часа назад",
-				"image": "public/images/reviews/review5.webp",
+				"image": "/images/reviews/review5.webp",
 				"stars":5
 			}
 		]

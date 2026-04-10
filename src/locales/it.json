@@ -39,34 +39,34 @@
 				"name": "Shamsiddin Shoraximov",
 				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
 				"time": "2 mesi fa",
-				"image": "public/images/reviews/review1.webp",
+				"image": "/images/reviews/review1.webp",
 				"stars":5
 			},
 			{
 				"name": "Shamals",
 				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
 				"time": "2 giorni fa",
-				"image": "public/images/reviews/review2.webp",
+				"image": "/images/reviews/review2.webp",
 				"stars":4
 			},
 			{
 				"name": "Shamsiddin Shoraximov",
 				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
 				"time": "2 ore fa",
-				"image": "public/images/reviews/review3.webp",
+				"image": "/images/reviews/review3.webp",
 				"stars":4
 			},{
 				"name": "Shamals",
 				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
 				"time": "2 giorni fa",
-				"image": "public/images/reviews/review4.webp",
+				"image": "/images/reviews/review4.webp",
 				"stars":5
 			},
 			{
 				"name": "Shamsiddin Shoraximov",
 				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
 				"time": "2 ore fa",
-				"image": "public/images/reviews/review5.webp",
+				"image": "/images/reviews/review5.webp",
 				"stars":5
 			}
 		]

@@ -39,35 +39,35 @@
 				"name": "Shamsiddin Shoraximov",
 				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
 				"time": "2 oy oldin",
-				"image": "public/images/reviews/review1.webp",
+				"image": "/images/reviews/review1.webp",
 				"stars": 5
 			},
 			{
 				"name": "Shamals",
 				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
 				"time": "2 kun oldin",
-				"image": "public/images/reviews/review2.webp",
+				"image": "/images/reviews/review2.webp",
 				"stars": 4
 			},
 			{
 				"name": "Shamsiddin Shoraximov",
 				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
 				"time": "2 soat oldin",
-				"image": "public/images/reviews/review3.webp",
+				"image": "/images/reviews/review3.webp",
 				"stars": 4
 			},
 			{
 				"name": "Shamals",
 				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
 				"time": "2 kun oldin",
-				"image": "public/images/reviews/review4.webp",
+				"image": "/images/reviews/review4.webp",
 				"stars": 5
 			},
 			{
 				"name": "Shamsiddin Shoraximov",
 				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
 				"time": "2 soat oldin",
-				"image": "public/images/reviews/review5.webp",
+				"image": "/images/reviews/review5.webp",
 				"stars": 5
 			}
 		]
