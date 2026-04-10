@@ -9,99 +9,76 @@
   --color-dark-brown: #0d0d0d;
 }
 
-/* --- 1. Swiper Pagination Fixes --- */
-.custom-pagination-container {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  min-width: 20px;
-  min-height: 20px;
-  /* Ensures it stays above other elements */
-  z-index: 30; 
+/* --- Thoughts Section Maxsus Stillari --- */
+
+/* Swiper chetidan chiqib ketadigan elementlarni ko'rsatishi uchun */
+#thoughts .swiper {
+  overflow: visible !important;
 }
 
+/* Pagination Konteyneri */
+.custom-pagination-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  z-index: 50;
+  /* Mobilda karta tagida aniq masofa bilan turishi uchun */
+  margin-top: 35px; 
+  min-height: 20px;
+}
+
+/* Desktop uchun pagination joylashuvi (O'ng tomonda vertikal) */
+@media (min-width: 1024px) {
+  .custom-pagination-container {
+    margin-top: 0;
+    position: absolute !important;
+    right: -20px !important; /* Kartadan o'ngroqda */
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    flex-direction: column !important;
+    width: 20px !important;
+  }
+}
+
+/* Nuqtalarning (Bullets) ko'rinishi */
 .custom-bullet {
   width: 10px;
   height: 10px;
-  display: inline-block; /* Changed from block to prevent collapse */
-  border: 1px solid #00a99d;
+  display: inline-block;
+  border: 1.5px solid #00a99d; /* Sizning yashil rang */
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius: 0px;
-  flex-shrink: 0; /* Prevents dots from squishing during transitions */
+  border-radius: 0px; /* To'rtburchak shakli */
+  flex-shrink: 0;
 }
 
-/* Mobile Active: Stretches Horizontally */
+/* Aktiv nuqta - Mobilda eniga cho'ziladi */
 .custom-bullet-active {
   background: #00a99d !important;
-  width: 25px !important;
+  width: 28px !important;
   height: 10px !important;
 }
 
 @media (min-width: 1024px) {
-  .custom-bullet {
-    width: 12px;
-    height: 12px;
-  }
-
-  /* Desktop Active: Stretches Vertically */
+  /* Aktiv nuqta - Desktopda bo'yiga cho'ziladi */
   .custom-bullet-active {
-    background: #00a99d !important;
-    height: 25px !important;
-    width: 12px !important;
+    width: 10px !important;
+    height: 28px !important;
   }
 }
 
-/* --- 2. Search Modal Styles --- */
-/* Simple fade-in animation for the search overlay */
-.animate-in.fade-in {
-  animation: fadeIn 0.2s ease-out forwards;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-/* Ensure the search input looks clean on all mobile browsers */
-input[type="text"] {
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-/* --- 3. Swiper General Container Fixes --- */
-.swiper {
-  overflow: visible !important; /* Allows pagination to sit outside card bounds if needed */
-}
-
-.swiper-slide {
-  height: auto; /* Ensures cards stretch to full height in vertical mode */
-}
-
-/* --- 4. Language Dropdown Animations --- */
-.animate-in.zoom-in {
-  animation: zoomIn 0.2s ease-out forwards;
-}
-
-@keyframes zoomIn {
-  from { 
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to { 
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* --- 5. Scroll Smoothness --- */
+/* --- Umumiy Layout Stillari --- */
 html {
   scroll-behavior: smooth;
 }
 
-/* Prevent layout shift when modal opens */
 body.modal-open {
   overflow: hidden;
-  padding-right: 0px; /* Adjust if scrollbar causes jumping */
+}
+
+/* Swiper slide balandligini bir xil saqlash uchun */
+#thoughts .swiper-slide {
+  height: auto !important;
 }

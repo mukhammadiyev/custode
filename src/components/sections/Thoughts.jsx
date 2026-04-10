@@ -1,11 +1,11 @@
 import { useTranslation } from 'react-i18next'
-import { Autoplay, Mousewheel, Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
-
 import 'swiper/css'
 import 'swiper/css/pagination'
+import { Autoplay, Mousewheel, Pagination } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import Logo from '../../../public/images/logo/Logo.svg'
 import useDevice from '../../hooks/useDevice'
+import Quote from '../../../public/images/reviews/Quote.svg'
 
 const Thoughts = () => {
 	const { t } = useTranslation()
@@ -21,41 +21,21 @@ const Thoughts = () => {
 		>
 			<div
 				className='
-				container mx-auto
-				grid grid-cols-1 lg:grid-cols-2
-				gap-8 lg:gap-12
-				items-center
-				pt-5 pb-10 lg:py-0
-				px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24
-				'
+        container mx-auto
+        grid grid-cols-1 lg:grid-cols-2
+        gap-8 lg:gap-12
+        items-center
+        pt-5 pb-10 lg:py-0
+        px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24
+        '
 			>
 				{/* Left */}
 				<div className='space-y-4 lg:space-y-7 font-manrope lg:pr-10'>
-					<h2
-						className='
-						text-2xl
-						lg:text-4xl
-						xl:text-6xl
-						font-extrabold
-						text-white
-						leading-tight
-						'
-					>
+					<h2 className='text-2xl lg:text-4xl xl:text-6xl font-extrabold text-white leading-tight'>
 						{t('thoughts.title')}
 					</h2>
 
-					<p
-						className='
-						text-gray-300
-						text-sm
-						lg:text-lg
-						xl:text-2xl
-						leading-6
-						lg:leading-8
-						xl:leading-9
-						max-w-md
-						'
-					>
+					<p className='text-gray-300 text-sm lg:text-lg xl:text-2xl leading-6 lg:leading-8 xl:leading-9 max-w-md'>
 						{t('thoughts.description')}
 					</p>
 
@@ -68,8 +48,8 @@ const Thoughts = () => {
 					</div>
 				</div>
 
-				{/* Slider */}
-				<div className='relative w-full h-67.5 sm:h-70 md:h-115 lg:h-130 xl:h-155 flex items-center'>
+				{/* Slider Section */}
+				<div className='relative w-full h-67.5 sm:h-70 md:h-115 lg:h-130 xl:h-155 flex flex-col justify-center items-center'>
 					<Swiper
 						key={isMobile ? 'mobile' : 'desktop'}
 						direction={isMobile ? 'horizontal' : 'vertical'}
@@ -90,18 +70,19 @@ const Thoughts = () => {
 							bulletActiveClass: 'custom-bullet-active',
 						}}
 						modules={[Pagination, Autoplay, Mousewheel]}
-						className='h-full w-full static!'
+						className='h-full w-full overflow-visible!'
 					>
 						{reviews.map((review, index) => (
 							<SwiperSlide key={index}>
+								{/* SIZNING ASL KARTA DIZAYNINGIZ */}
 								<div className='bg-white w-full lg:w-11/12 p-4 lg:p-5 xl:p-7 flex flex-col gap-5 h-full justify-between'>
-									<div className='text-[#00a99d]'>
-										<svg width='45' height='35' viewBox='0 0 45 35' fill='none'>
-											<path
-												d='M0 35H15.75L20.25 21.875V0H0V35ZM24.75 0V21.875L29.25 35H45V0H24.75Z'
-												fill='currentColor'
-											/>
-										</svg>
+									<div>
+										{/* SVG O'RNIGA RASM QO'YILDI */}
+										<img
+											src={Quote}
+											className='w-10 lg:w-11 xl:w-12 h-auto'
+											alt='Quote'
+										/>
 									</div>
 
 									<p className='text-gray-700 text-xs lg:text-xs xl:text-base leading-relaxed'>
@@ -127,12 +108,9 @@ const Thoughts = () => {
 
 											<div className='flex items-center gap-2'>
 												<div className='flex text-[10px] lg:text-xs'>
-													{/* Filled Stars */}
 													<span className='text-orange-400'>
 														{'★'.repeat(review.stars)}
 													</span>
-
-													{/* Empty Stars (Gray) */}
 													<span className='text-gray-300'>
 														{'★'.repeat(5 - review.stars)}
 													</span>
@@ -146,25 +124,10 @@ const Thoughts = () => {
 								</div>
 							</SwiperSlide>
 						))}
-						{/* Pagination */}
-					<div
-						className='
-						custom-pagination-container
-						absolute
-						left-1/3 
-						-bottom-6
-						flex flex-row gap-3
-						z-30
-						lg:left-auto
-						lg:right-0
-						lg:top-1/2
-						lg:-translate-y-1/3
-						lg:translate-x-0
-						lg:bottom-auto
-						lg:flex-col
-						'
-					/>
 					</Swiper>
+
+					{/* PAGINATION KONTEYNERI - Endi u Swiper tegidan tashqarida */}
+					<div className='custom-pagination-container' />
 				</div>
 			</div>
 		</section>
