@@ -65,7 +65,7 @@ const Gallery = () => {
 							</div>
 						</div>
 					</div>
-					<button className='flex items-center gap-2.5 justify-between w-fit border border-light-blue bg-transparent px-5 py-2 lg:text-sm text-xs text-white hover:bg-light-blue transition-colors group-hover:border-light-blue cursor-pointer'>
+					<button aria-label='view gallery' className='flex items-center gap-2.5 justify-between w-fit border border-light-blue bg-transparent px-5 py-2 lg:text-sm text-xs text-white hover:bg-light-blue transition-colors group-hover:border-light-blue cursor-pointer'>
 						<IoImageSharp className='w-3 md:w-4 h-3 md:h-4' />
 						{t('gallery.view')}
 					</button>

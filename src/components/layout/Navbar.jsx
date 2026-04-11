@@ -146,6 +146,7 @@ function Navbar({ onSearchChange }) {
                       lang =>
                         lang.code !== currentLang.code && (
                           <button
+                          aria-label={`switch language to ${lang.label}`}
                             key={lang.code}
                             onClick={() => changeLanguage(lang.code)}
                             className={`w-full flex items-center gap-3 px-4 py-3 transition-colors last:border-none cursor-pointer ${
@@ -176,6 +177,7 @@ function Navbar({ onSearchChange }) {
               )}
 
               <button
+              aria-label="toggle language selector"
                 onClick={() => setIsOpen(!isOpen)}
                 className='flex items-center gap-3 bg-transparent px-4 py-2 border-b border-transparent hover:shadow-sm transition-all cursor-pointer'
               >
@@ -209,7 +211,7 @@ function Navbar({ onSearchChange }) {
           {/* mobile actions */}
           <div className='lg:hidden flex items-center gap-3.5'>
             {/* TRIGGER SEARCH MODAL */}
-            <button onClick={() => setIsSearchModalOpen(true)}>
+            <button aria-label="open search modal" onClick={() => setIsSearchModalOpen(true)}>
                 <IoSearch className='w-4.5 h-4.5 text-white font-bold' />
             </button>
 
@@ -226,6 +228,7 @@ function Navbar({ onSearchChange }) {
                       lang =>
                         lang.code !== currentLang.code && (
                           <button
+                            aria-label={`switch language to ${lang.label}`}
                             key={lang.code}
                             onClick={() => changeLanguage(lang.code)}
                             className={`w-full flex items-center gap-2 px-2 py-2 transition-colors last:border-none cursor-pointer ${
@@ -256,6 +259,7 @@ function Navbar({ onSearchChange }) {
               )}
 
               <button
+              aria-label="toggle language selector"
                 onClick={() => setIsOpen(!isOpen)}
                 className='flex items-center gap-2 bg-transparent px-0 py-0 border-b border-transparent hover:shadow-sm transition-all cursor-pointer'
               >
@@ -271,6 +275,7 @@ function Navbar({ onSearchChange }) {
             </div>
 
             <button
+            aria-label='open menu'
               className='w-9 h-9 rounded-full bg-[#FFF5ED] flex items-center justify-center'
               onClick={() => setMobileOpen(true)}
             >
@@ -283,6 +288,7 @@ function Navbar({ onSearchChange }) {
                 {/* top bar */}
                 <div className='flex justify-between items-center p-6 bg-light-brown'>
                   <button
+                  aria-label='back to home'
                     className='text-white text-2xl flex items-center gap-2'
                     onClick={() => setMobileOpen(false)}
                   >
@@ -357,6 +363,7 @@ function Navbar({ onSearchChange }) {
               />
             </div>
             <button 
+            aria-label='back to home'
               onClick={() => {
                 setIsSearchModalOpen(false)
                 onSearchChange('') 
@@ -371,7 +378,7 @@ function Navbar({ onSearchChange }) {
           <div className='flex-1 p-6 overflow-y-auto'>
             <div className='flex justify-between items-center mb-6'>
               <h3 className='text-white font-bold text-lg'>Avval qidirilganlar</h3>
-              <button onClick={clearHistory} className='text-[#00A3A3] text-sm font-medium'>
+              <button aria-label='clear search history' onClick={clearHistory} className='text-[#00A3A3] text-sm font-medium'>
                 Hammasini tozalash
               </button>
             </div>

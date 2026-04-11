@@ -68,7 +68,7 @@ const Contact = () => {
 								></textarea>
 							</div>
 
-							<button className='bg-light-blue hover:bg-light-blue/80 cursor-pointer transition-colors px-10 py-3 font-semibold text-white uppercase text-sm'>
+							<button aria-label='submit form' className='bg-light-blue hover:bg-light-blue/80 cursor-pointer transition-colors px-10 py-3 font-semibold text-white uppercase text-sm'>
 								{t('contact.form.submit')}
 							</button>
 						</form>
