@@ -90,7 +90,7 @@ function Navbar({ onSearchChange }) {
   }
 
   return (
-    <nav className='w-full bg-light-brown border-b border-[#575757] shadow-sm sticky top-0 z-40'>
+    <nav className='w-full bg-light-brown border-b border-[#575757] shadow-sm sticky top-0 z-9999'>
       <div className='container mx-auto'>
         <div
           className='w-full flex bg-light-brown items-center justify-between
