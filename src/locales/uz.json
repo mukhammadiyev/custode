@@ -36,38 +36,33 @@
 		"description": "Biz uchun eng katta baho — bu mijozlarimizning ishonchi. Custode mahsulotlaridan foydalanganlar sifat, ishonchlilik va qulaylikni yuqori baholashadi. Ularning ijobiy fikrlari bizni yanada rivojlanishga undaydi.",
 		"items": [
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"name": "Xasan Olimov",
+				"text": "Custode mahsulotlari bizga juda ma’qul keldi, sifati haqiqatdan ham yuqori. O‘rnatish jarayoni oson va mexanizmi juda yumshoq ishlaydi. Eng asosiysi — xavfsizlik ta’minlangan. Tavsiya qilaman.",
 				"time": "2 oy oldin",
-				"image": "/images/reviews/review1.webp",
 				"stars": 5
 			},
 			{
-				"name": "Shamals",
-				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"name": "Odilbek",
+				"text": "Yangi loyihamizda aynan shu qulflardan foydalandik va natija bizni quvontirdi. Dizayni zamonaviy, ishlashi esa juda ishonchli ekan. Sifatli mahsulot qidirayotganlarga ayni muddao.",
 				"time": "2 kun oldin",
-				"image": "/images/reviews/review2.webp",
 				"stars": 4
 			},
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"name": "Asqar Muxtarov",
+				"text": "Ushbu brend qulflari chidamlilik borasida barchani hayron qoldirdi. Har bir detali puxta ishlangan, foydalanish esa nihoyatda qulay. Biz uchun eng muhimi ishonch edi va biz uni topdik.",
 				"time": "2 soat oldin",
-				"image": "/images/reviews/review3.webp",
 				"stars": 4
 			},
 			{
-				"name": "Shamals",
-				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"name": "Jo'rabek Izzatullayev",
+				"text": "Custode qulflarini o‘rnatganimizdan beri ko‘nglimiz xotirjam. Materiallari mustahkam va tashqi ko‘rinishi juda nafis. Narxi va sifatiga kelsak, bu eng yaxshi tanlov bo‘ldi.",
 				"time": "2 kun oldin",
-				"image": "/images/reviews/review4.webp",
 				"stars": 5
 			},
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "Custode qulflarini bir necha loyihalarimizda ishlatdik va natijadan juda mamnunmiz. Sifati yuqori, o‘rnatish oson va ishlashi juda silliq. Eng muhimi — ishonchli. Bemalol tavsiya qilaman.",
+				"name": "Bunyodbek",
+				"text": "Biz uzoq vaqt sifatli qulflar qidirdik va nihoyat Custodeda to‘xtadik. Ishlashi silliq, hech qanday muammosiz xizmat qilmoqda. Barchaga ushbu brendni bemalol tavsiya etaman.",
 				"time": "2 soat oldin",
-				"image": "/images/reviews/review5.webp",
 				"stars": 5
 			}
 		]
@@ -95,9 +90,9 @@
 			"email_info": "Email"
 		},
 		"info": {
-			"phone_1": "+998 99 132 43 45",
-			"phone_2": "+998 99 432 32 32",
-			"address": "Uzb Res. Toshkent sh. Sh Rashidov 24",
+			"phone_1": "+998 90 777 77 78 ",
+			"phone_2": "+998 55 500 77 00",
+			"address": "Uzb. Toshkent sh. Yangi hayot, Navruz 23-uy",
 			"email": "custode@info.com"
 		}
 	},
@@ -113,9 +108,9 @@
 			"thoughts": "Fikrlar"
 		},
 		"contacts": {
-			"email": "custode@gmail.com",
-			"phone_1": "+998 99 132 43 45",
-			"phone_2": "+998 99 132 43 45"
+			"email": "custode@info.com",
+			"phone_1": "+998 90 777 77 78",
+			"phone_2": "+998 55 500 77 00"
 		},
 		"copyright": "Custode. All rights reserved."
 	}

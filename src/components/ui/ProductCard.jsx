@@ -26,10 +26,12 @@ const ProductCard = ({ image, modelCode }) => {
         </p>
         
         {/* Order Button */}
-        <button aria-label='order' className="flex items-center justify-between w-fit border border-light-blue bg-transparent px-5 py-2 lg:text-sm text-xs text-white hover:bg-light-blue transition-colors group-hover:border-light-blue cursor-pointer">
-          {t('products.items.ms_212_c_be.cta')}
-          <span className="ml-2">›</span>
-        </button>
+        <a href='https://t.me/custodelock' target='_blank'>
+          <button aria-label='order' className="flex items-center justify-between w-fit border border-light-blue bg-transparent px-5 py-2 lg:text-sm text-xs text-white hover:bg-light-blue transition-colors group-hover:border-light-blue cursor-pointer">
+            {t('products.items.ms_212_c_be.cta')}
+            <span className="ml-2">›</span>
+          </button>
+        </a>
       </div>
     </div>
   );

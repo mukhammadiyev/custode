@@ -12,7 +12,10 @@ const Gallery = () => {
 	}
 
 	return (
-		<div id='gallery' className='scroll-mt-20 w-full bg-light-brown md:bg-transparent'>
+		<div
+			id='gallery'
+			className='scroll-mt-20 w-full bg-light-brown md:bg-transparent'
+		>
 			<div className='container mx-auto py-5 px-4 sm:px-6 md:px-8  lg:px-10 xl:px-16 2xl:px-24 3xl:px-65'>
 				<div className='flex flex-col gap-5 md:gap-7.5 font-manrope'>
 					<h2
@@ -65,10 +68,15 @@ const Gallery = () => {
 							</div>
 						</div>
 					</div>
-					<button aria-label='view gallery' className='flex items-center gap-2.5 justify-between w-fit border border-light-blue bg-transparent px-5 py-2 lg:text-sm text-xs text-white hover:bg-light-blue transition-colors group-hover:border-light-blue cursor-pointer'>
-						<IoImageSharp className='w-3 md:w-4 h-3 md:h-4' />
-						{t('gallery.view')}
-					</button>
+					<a href='https://t.me/custodelock' target='_blank'>
+						<button
+							aria-label='view gallery'
+							className='flex items-center gap-2.5 justify-between w-fit border border-light-blue bg-transparent px-5 py-2 lg:text-sm text-xs text-white hover:bg-light-blue transition-colors group-hover:border-light-blue cursor-pointer'
+						>
+							<IoImageSharp className='w-3 md:w-4 h-3 md:h-4' />
+							{t('gallery.view')}
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>

@@ -102,7 +102,7 @@ function Navbar({ onSearchChange }) {
           <img
             src={isMobile ? mobileLogo : logo}
             alt='logo'
-            className='w-10 md:w-24 lg:w-32 xl:w-36 2xl:w-45 h-7 lg:h-9 xl:h-10 2xl:h-11'
+            className='md:w-24 lg:w-32 xl:w-36 2xl:w-45 h-7 lg:h-9 xl:h-10 2xl:h-11'
           />
 
           {/* menu */}

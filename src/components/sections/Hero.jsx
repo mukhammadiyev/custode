@@ -55,9 +55,11 @@ function Hero() {
               {t('hero.description')}
             </p>
 
-            <Button>
-              {t('hero.cta')} <FaChevronRight className="inline ml-2" />
-            </Button>
+            <a href='https://t.me/custodelock' target='_blank'>
+              <Button>
+                {t('hero.cta')} <FaChevronRight className="inline ml-2" />
+              </Button>
+            </a>
           </div>
         </div>
       </div>

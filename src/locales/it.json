@@ -36,38 +36,34 @@
 		"description": "Il valore più grande per noi è la fiducia dei nostri clienti. Chi utilizza i prodotti Custode apprezza molto la qualità, l'affidabilità e la comodità. I loro feedback positivi ci motivano a crescere e migliorare continuamente.",
 		"items": [
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"name": "Xasan Olimov",
+				"text": "Abbiamo utilizzato le serrature Custode in diversi progetti e siamo molto soddisfatti. Alta qualità, facilità di installazione e funzionamento fluido. Soprattutto affidabili. Le raccomando.",
 				"time": "2 mesi fa",
-				"image": "/images/reviews/review1.webp",
-				"stars":5
+				"stars": 5
 			},
 			{
-				"name": "Shamals",
-				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"name": "Odilbek",
+				"text": "Queste serrature hanno superato le nostre aspettative. Materiali robusti e design moderno adatto a ogni porta. La scelta migliore per la sicurezza. Siamo felici della collaborazione.",
 				"time": "2 giorni fa",
-				"image": "/images/reviews/review2.webp",
-				"stars":4
+				"stars": 4
 			},
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"name": "Asqar Muxtarov",
+				"text": "Abbiamo scelto questo marchio per il nuovo ufficio e siamo contenti. Funzionano silenziosamente e sono molto comode. Ottimo rapporto qualità-prezzo. Le consiglio vivamente a tutti.",
 				"time": "2 ore fa",
-				"image": "/images/reviews/review3.webp",
-				"stars":4
-			},{
-				"name": "Shamals",
-				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"stars": 4
+			},
+			{
+				"name": "Jo'rabek Izzatullayev",
+				"text": "La robustezza e l'estetica di queste serrature ci hanno colpito. Finalmente abbiamo trovato il prodotto di qualità che cercavamo. Anche il servizio è eccellente. Grazie mille!",
 				"time": "2 giorni fa",
-				"image": "/images/reviews/review4.webp",
-				"stars":5
+				"stars": 5
 			},
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "Abbiamo utilizzato le serrature Custode in diversi nostri progetti e siamo rimasti molto soddisfatti del risultato. La qualità è alta, l'installazione è semplice e il funzionamento è fluido. Le consiglio senza esitazione.",
+				"name": "Bunyodbek",
+				"text": "Le serrature Custode sono un vero simbolo di qualità. Ogni dettaglio è curato e funzionano senza problemi. Abbiamo affidato la nostra sicurezza a questo marchio con successo. Consigliatissime.",
 				"time": "2 ore fa",
-				"image": "/images/reviews/review5.webp",
-				"stars":5
+				"stars": 5
 			}
 		]
 	},
@@ -91,12 +87,12 @@
 			"address": "Indirizzo",
 			"message_placeholder": "Inserisci messaggio...",
 			"submit": "Invia",
-			"email_info":"Email"
+			"email_info": "Email"
 		},
 		"info": {
-			"phone_1": "+998 99 132 43 45",
-			"phone_2": "+998 99 432 32 32",
-			"address": "Tashkent, Uzbekistan, Sh. Rashidov 24",
+			"phone_1": "+998 90 777 77 78 ",
+			"phone_2": "+998 55 500 77 00",
+			"address": "Uzb. Toshkent sh. Yangi hayot, Navruz 23-uy",
 			"email": "custode@info.com"
 		}
 	},
@@ -112,9 +108,9 @@
 			"thoughts": "Recensioni"
 		},
 		"contacts": {
-			"email": "custode@gmail.com",
-			"phone_1": "+998 99 132 43 45",
-			"phone_2": "+998 99 132 43 45"
+			"email": "custode@info.com",
+			"phone_1": "+998 90 777 77 78",
+			"phone_2": "+998 55 500 77 00"
 		},
 		"copyright": "Custode. Tutti i diritti riservati."
 	}

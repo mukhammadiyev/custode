@@ -49,7 +49,7 @@ const Thoughts = () => {
 				</div>
 
 				{/* Slider Section */}
-				<div className='relative w-full h-67.5 sm:h-70 md:h-115 lg:h-130 xl:h-155 flex flex-col justify-center items-center'>
+				<div className='relative w-full h-67.5 sm:h-70 md:h-115 lg:h-130 xl:h-155 flex flex-col justify-center items-center overflow-x-clip md:overflow-y-hidden lg:overflow-visible '>
 					<Swiper
 						key={isMobile ? 'mobile' : 'desktop'}
 						direction={isMobile ? 'horizontal' : 'vertical'}

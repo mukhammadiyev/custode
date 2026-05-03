@@ -36,39 +36,34 @@
 		"description": "The greatest value for us is the trust of our customers. People who use Custode products highly appreciate the quality, reliability, and convenience. Their positive feedback motivates us to keep improving and growing.",
 		"items": [
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"name": "Xasan Olimov",
+				"text": "We used Custode locks in several projects and are very satisfied. High quality, easy installation, and very smooth operation. Most importantly—reliable. I highly recommend them.",
 				"time": "2 months ago",
-				"image": "/images/reviews/review1.webp",
-				"stars":5
+				"stars": 5
 			},
 			{
-				"name": "Shamals",
-				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"name": "Odilbek",
+				"text": "These locks exceeded our expectations. The materials are durable, and the design is modern, fitting any door. It is the best choice for security. We are happy with this partnership.",
 				"time": "2 days ago",
-				"image": "/images/reviews/review2.webp",
-				"stars":4
+				"stars": 4
 			},
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"name": "Asqar Muxtarov",
+				"text": "We chose this brand for our new office and made the right decision. They work quietly and are very convenient to use. Perfect balance of price and quality. I definitely suggest it.",
 				"time": "2 hours ago",
-				"image": "/images/reviews/review3.webp",
-				"stars":5
+				"stars": 5
 			},
 			{
-				"name": "Shamals",
-				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"name": "Jo'rabek Izzatullayev",
+				"text": "The durability and appearance of these locks impressed us. We finally found the high-quality product we were looking for. Service and delivery are also top-notch. Thank you!",
 				"time": "2 days ago",
-				"image": "/images/reviews/review4.webp",
-				"stars":4
+				"stars": 4
 			},
 			{
-				"name": "Shamsiddin Shoraximov",
-				"text": "We used Custode locks in several of our projects and were very satisfied with the results. The quality is high, installation is easy, and the operation is smooth. Most importantly, they are reliable. I can confidently recommend them.",
+				"name": "Bunyodbek",
+				"text": "Custode locks are a true mark of quality. Every detail is well-thought-out, and they work flawlessly. We trusted this brand with our home security and are very pleased. Highly recommended.",
 				"time": "2 hours ago",
-				"image": "/images/reviews/review5.webp",
-				"stars":5
+				"stars": 5
 			}
 		]
 	},
@@ -92,12 +87,12 @@
 			"address": "Address",
 			"message_placeholder": "Enter your message...",
 			"submit": "Send",
-			"email_info":"Email"
+			"email_info": "Email"
 		},
 		"info": {
-			"phone_1": "+998 99 132 43 45",
-			"phone_2": "+998 99 432 32 32",
-			"address": "Tashkent, Uzbekistan, Sh. Rashidov 24",
+			"phone_1": "+998 90 777 77 78 ",
+			"phone_2": "+998 55 500 77 00",
+			"address": "Uzb. Toshkent sh. Yangi hayot, Navruz 23-uy",
 			"email": "custode@info.com"
 		}
 	},
@@ -113,9 +108,9 @@
 			"thoughts": "Testimonials"
 		},
 		"contacts": {
-			"email": "custode@gmail.com",
-			"phone_1": "+998 99 132 43 45",
-			"phone_2": "+998 99 132 43 45"
+			"email": "custode@info.com",
+			"phone_1": "+998 90 777 77 78",
+			"phone_2": "+998 55 500 77 00"
 		},
 		"copyright": "Custode. All rights reserved."
 	}
