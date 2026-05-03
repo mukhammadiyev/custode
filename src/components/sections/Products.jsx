@@ -90,7 +90,7 @@ const Products = ({ searchQuery = '' }) => {
             */}
             {isMobile && !isSearching && fakeProducts.length > 3 && (
               <Button onClick={handleToggle} className='mt-1 sm:hidden'>
-                {!isHiding ? 'Yana ko’rsatish' : 'Kamroq ko’rsatish'}
+                {!isHiding ? t('products.moreView') : t('products.lessView')}
               </Button>
             )}
           </div>

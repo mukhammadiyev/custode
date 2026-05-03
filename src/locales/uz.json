@@ -29,7 +29,10 @@
 				"description": "Galingas benzininis grandininis pjūklas malkoms pjauti ir aplinkai prižiūrėti",
 				"cta": "Buyurtma berish"
 			}
-		}
+		},
+		"view": "Barcha maxsulotlarni ko’rish",
+		"moreView":"Yana ko’rsatish",
+		"lessView":"Kamroq ko’rsatish"
 	},
 	"thoughts": {
 		"title": "Mijozlarimiz fikrlari",

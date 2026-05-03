@@ -29,7 +29,10 @@
 				"description": "Powerful petrol chainsaw for cutting firewood and maintenance work",
 				"cta": "Order now"
 			}
-		}
+		},
+		"view": "View all products",
+		"moreView":"Show more",
+		"lessView":"Show less"
 	},
 	"thoughts": {
 		"title": "What Our Customers Say",

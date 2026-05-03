@@ -29,7 +29,10 @@
 				"description": "Potente motosega a benzina per lavori di manutenzione",
 				"cta": "Ordina ora"
 			}
-		}
+		},
+		"view": "Visualizza tutti i prodotti",
+		"moreView":"Mostra di più",
+		"lessView":"Mostra meno"
 	},
 	"thoughts": {
 		"title": "Opinioni dei nostri clienti",
