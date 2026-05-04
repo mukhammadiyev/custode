@@ -355,7 +355,7 @@ function Navbar({ onSearchChange }) {
               <input
                 autoFocus
                 type='text'
-                placeholder='Qiriring...'
+                placeholder={t('nav.search')}
                 className='w-full bg-[#2a2a2a] text-white pl-10 pr-4 py-2.5 rounded-lg outline-none text-base'
                 onKeyDown={(e) => {
                     if(e.key === 'Enter') handleSearchCommit(e.target.value)
