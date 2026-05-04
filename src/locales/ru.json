@@ -5,7 +5,12 @@
 		"thoughts": "Отзывы",
 		"gallery": "Галерея",
 		"contact": "Контакты",
-		"search": "Поиск..."
+		"search": "Поиск...",
+		"back": "Назад",
+    "language": "Язык",
+    "previousSearches": "Предыдущие поиски",
+    "clearAll": "Очистить все",
+    "noPreviousSearches": "История поисков пуста"
 	},
 	"hero": {
 		"title": "Надёжный замок - гарантия безопасной жизни",

@@ -5,7 +5,12 @@
 		"thoughts": "Recensioni",
 		"gallery": "Galleria",
 		"contact": "Contatti",
-		"search": "Cerca..."
+		"search": "Cerca...",
+		"back": "Indietro",
+		"language": "Lingua",
+		"previousSearches":"Ricerche precedenti",
+		"clearAll":"Cancella tutto",
+		"noPreviousSearches":"Nessuna ricerca precedente"
 	},
 	"hero": {
 		"title": "Serratura affidabile — garanzia di sicurezza",
@@ -31,8 +36,8 @@
 			}
 		},
 		"view": "Visualizza tutti i prodotti",
-		"moreView":"Mostra di più",
-		"lessView":"Mostra meno"
+		"moreView": "Mostra di più",
+		"lessView": "Mostra meno"
 	},
 	"thoughts": {
 		"title": "Opinioni dei nostri clienti",

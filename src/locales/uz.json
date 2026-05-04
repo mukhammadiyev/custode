@@ -5,7 +5,12 @@
 		"thoughts": "Fikrlar",
 		"gallery": "Galareya",
 		"contact": "Aloqa",
-		"search": "Qidiring..."
+		"search": "Qidiring...",
+		"back": "Orqaga",
+    "language": "Til",
+    "previousSearches": "Avvalgi qidiruvlar",
+    "clearAll": "Hammasini tozalash",
+    "noPreviousSearches": "Avvalgi qidiruvlar mavjud emas"
 	},
 	"hero": {
 		"title": "Ishonchli qulf — xavfsiz hayot kafolati",

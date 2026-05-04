@@ -293,7 +293,7 @@ function Navbar({ onSearchChange }) {
                     onClick={() => setMobileOpen(false)}
                   >
                     <IoChevronBack className='w-6 h-6' />
-                    Ortga
+                    {t('nav.back')}
                   </button>
                 </div>
 
@@ -304,7 +304,7 @@ function Navbar({ onSearchChange }) {
                     onClick={() => setMobileOpen(false)}
                     className="relative w-fit pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-light-blue after:transition-all after:duration-500 hover:after:w-full active:after:w-full"
                   >
-                    Biz haqimizda
+                    {t('nav.about')}
                   </a>
 
                   <a
@@ -312,7 +312,7 @@ function Navbar({ onSearchChange }) {
                     onClick={() => setMobileOpen(false)}
                     className="relative w-fit pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-light-blue after:transition-all after:duration-500 hover:after:w-full active:after:w-full"
                   >
-                    Maxsulotlar
+                    {t('nav.products')}
                   </a>
 
                   <a
@@ -320,7 +320,7 @@ function Navbar({ onSearchChange }) {
                     onClick={() => setMobileOpen(false)}
                     className="relative w-fit pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-light-blue after:transition-all after:duration-500 hover:after:w-full active:after:w-full"
                   >
-                    Fikrlar
+                    {t('nav.thoughts')}
                   </a>
 
                   <a
@@ -328,7 +328,7 @@ function Navbar({ onSearchChange }) {
                     onClick={() => setMobileOpen(false)}
                     className="relative w-fit pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-light-blue after:transition-all after:duration-500 hover:after:w-full active:after:w-full"
                   >
-                    Galareya
+                    {t('nav.gallery')}
                   </a>
 
                   <a
@@ -336,7 +336,7 @@ function Navbar({ onSearchChange }) {
                     onClick={() => setMobileOpen(false)}
                     className="relative w-fit pb-1 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-light-blue after:transition-all after:duration-500 hover:after:w-full active:after:w-full"
                   >
-                    Aloqa
+                    {t('nav.contact')}
                   </a>
                 </nav>
               </div>
@@ -370,16 +370,16 @@ function Navbar({ onSearchChange }) {
               }}
               className='bg-[#00A3A3] text-white px-5 py-2 rounded-lg text-sm font-bold'
             >
-              Ortga
+              {t('nav.back')}
             </button>
           </div>
 
           {/* history content */}
           <div className='flex-1 p-6 overflow-y-auto'>
             <div className='flex justify-between items-center mb-6'>
-              <h3 className='text-white font-bold text-lg'>Avval qidirilganlar</h3>
+              <h3 className='text-white font-bold text-lg'>{t('nav.previousSearches')}</h3>
               <button aria-label='clear search history' onClick={clearHistory} className='text-[#00A3A3] text-sm font-medium'>
-                Hammasini tozalash
+                {t('nav.clearAll')}
               </button>
             </div>
 
@@ -402,7 +402,7 @@ function Navbar({ onSearchChange }) {
                 </div>
               ))}
               {history.length === 0 && (
-                <p className='text-gray-500 text-center mt-10 text-sm'>Qidiruv tarixi bo'sh</p>
+                <p className='text-gray-500 text-center mt-10 text-sm'>{t('nav.noPreviousSearches')}</p>
               )}
             </div>
           </div>

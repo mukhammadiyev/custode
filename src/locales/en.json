@@ -5,7 +5,12 @@
 		"thoughts": "Testimonials",
 		"gallery": "Gallery",
 		"contact": "Contact",
-		"search": "Search..."
+		"search": "Search...",
+		"back": "Back",
+    "language": "Language",
+    "previousSearches": "Previous searches",
+    "clearAll": "Clear all",
+    "noPreviousSearches": "No previous searches"
 	},
 	"hero": {
 		"title": "A reliable lock - guarantees your safe life",
