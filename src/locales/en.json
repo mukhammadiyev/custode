@@ -77,7 +77,9 @@
 	},
 	"gallery": {
 		"title": "Gallery",
-		"view": "View images"
+		"view": "View images",
+		"showMore": "Show more",
+		"showLess": "Show less"
 	},
 	"contact": {
 		"title": "Contact us easily",

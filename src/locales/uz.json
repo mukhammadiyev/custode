@@ -77,7 +77,9 @@
 	},
 	"gallery": {
 		"title": "Galareya",
-		"view": "Rasmlarni ko’rish"
+		"view": "Rasmlarni ko’rish",
+		"showMore": "Yana ko’rsatish",
+		"showLess": "Kamroq ko’rsatish"
 	},
 	"contact": {
 		"title": "Biz bilan oson bog’laning",

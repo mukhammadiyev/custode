@@ -14,7 +14,7 @@ function Hero() {
       <img 
         src="/images/hero/header_image.webp" 
         alt="Hero background"
-        fetchpriority="high"
+        fetchPriority="high"
         loading="eager"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
