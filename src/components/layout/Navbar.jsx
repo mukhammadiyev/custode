@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import logo from '../../../public/images/logo/Logo.svg'
-import mobileLogo from '../../../public/images/logo/logo_mobile.svg'
 
 import { IoChevronBack, IoClose, IoMenu, IoSearch } from 'react-icons/io5'
 import useDevice from '../../hooks/useDevice'
@@ -101,14 +100,14 @@ function Navbar({ onSearchChange }) {
 					{/* logo */}
 					<div className='relative'>
 						<img
-							src={isMobile ? mobileLogo : logo}
+							src={logo}
 							alt='logo'
 							className='md:w-24 lg:w-32 xl:w-36 2xl:w-45 h-7 lg:h-9 xl:h-10 2xl:h-11'
 						/>
-						<div className='absolute bottom-0 md:-bottom-px lg:bottom-0 2xl:-bottom-0.5 left-8 md:right-0 xl:right-0 flex items-center md:justify-end '>
-							<span className='w-3.5 md:w-6 lg:w-7.5 xl:w-8.5 2xl:w-10.5 h-px lg:h-0.5 xl:h-0.75 2xl:h-0.75 bg-green-600'></span>
-							<span className='w-3.5 md:w-6 lg:w-7.5 xl:w-8.5 2xl:w-10.5 h-px lg:h-0.5 xl:h-0.75 2xl:h-0.75 bg-white'></span>
-							<span className='w-3.5 md:w-6 lg:w-7.5 xl:w-8.5 2xl:w-10.5 h-px lg:h-0.5 xl:h-0.75 2xl:h-0.75 bg-red-600'></span>
+						<div className='absolute -bottom-px md:-bottom-px lg:bottom-0 2xl:-bottom-0.5 right-0 xl:right-0 flex items-center md:justify-end '>
+							<span className='w-7 md:w-6 lg:w-7.5 xl:w-8.5 2xl:w-10.5 h-px lg:h-0.5 xl:h-0.75 2xl:h-0.75 bg-green-600'></span>
+							<span className='w-7 md:w-6 lg:w-7.5 xl:w-8.5 2xl:w-10.5 h-px lg:h-0.5 xl:h-0.75 2xl:h-0.75 bg-white'></span>
+							<span className='w-7 md:w-6 lg:w-7.5 xl:w-8.5 2xl:w-10.5 h-px lg:h-0.5 xl:h-0.75 2xl:h-0.75 bg-red-600'></span>
 						</div>
 					</div>
 
