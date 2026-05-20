@@ -8,22 +8,19 @@ const ProductCard = ({ image, modelCode }) => {
   return (
     <div className="bg-light-brown flex flex-col items-center p-2 w-full lg:max-w-full 2xl:max-w-full group transition-all duration-300 font-manrope gap-3.5">
       {/* Image Container */}
-      <div className="bg-white w-full min-h-60 lg:aspect-square flex items-center justify-center p-3">
+      <div className="bg-transparent w-full min-h-60 lg:aspect-square flex items-center justify-center p-3">
         <img 
           src={image} 
           alt={modelCode} 
-          className="max-w-full max-h-full object-contain"
+          className="w-full h-full object-cover"
         />
       </div>
 
       {/* Content Area */}
       <div className="w-full px-2 text-left pb-3">
-        <h3 className="text-white font-extrabold mb-1.5 text-2xl lg:text-4xl">
+        <h3 className="text-white font-extrabold mb-1.5 text-2xl lg:text-3xl lg:mb-4">
           {modelCode}
         </h3>
-        <p className="text-white text-xs lg:text-sm font-normal leading-4.5 lg:leading-5.5 mb-5 font-manrope">
-          {t('products.items.ms_212_c_be.description')}
-        </p>
         
         {/* Order Button */}
         <a href='https://t.me/custodelock' target='_blank'>

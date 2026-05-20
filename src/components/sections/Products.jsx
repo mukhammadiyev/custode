@@ -11,15 +11,15 @@ const Products = ({ searchQuery = '' }) => {
   const [isMobile, setIsMobile] = useState(false)
   const [isHiding, setIsHiding] = useState(false)
 
-  const fakeProducts = [
-    { id: 1, img: '/images/products/product_one.webp', code: 'MS 212 C-BE' },
-    { id: 2, img: '/images/products/product_two.webp', code: 'MS 212 C-FE' },
-    { id: 3, img: '/images/products/product_three.webp', code: 'MS 150 C-RE' },
-    { id: 4, img: '/images/products/product_four.webp', code: 'MS 212 C-GE' },
-    { id: 5, img: '/images/products/product_five.webp', code: 'MS 200 C-BE' },
-    { id: 6, img: '/images/products/product_six.webp', code: 'MS 212 C-BE' },
-    { id: 7, img: '/images/products/product_seven.webp', code: 'MS 430 C-BE' },
-    { id: 8, img: '/images/products/product_eight.webp', code: 'MS 212 C-BE' },
+  const productCards = [
+    { id: 1, img: '/images/products/product_one.webp', code: 'FINESTRA 600' },
+    { id: 2, img: '/images/products/product_two.webp', code: 'CORREDO 200 ORO' },
+    { id: 3, img: '/images/products/product_three.webp', code: 'CORREDO BRONZ' },
+    { id: 4, img: '/images/products/product_four.webp', code: 'FINESTRA-800' },
+    { id: 5, img: '/images/products/product_five.webp', code: 'FINESTRA-700' },
+    { id: 6, img: '/images/products/product_six.webp', code: 'POTENZA-700' },
+    { id: 7, img: '/images/products/product_seven.webp', code: 'FINESTRA-50' },
+    { id: 8, img: '/images/products/product_eight.webp', code: 'CUSTODE S-1' },
   ]
 
   useEffect(() => {
@@ -32,8 +32,8 @@ const Products = ({ searchQuery = '' }) => {
   const handleToggle = () => {
     if (!isHiding) {
       const nextCount = visibleCount + 3
-      if (nextCount >= fakeProducts.length) {
-        setVisibleCount(fakeProducts.length)
+      if (nextCount >= productCards.length) {
+        setVisibleCount(productCards.length)
         setIsHiding(true)
       } else {
         setVisibleCount(nextCount)
@@ -52,7 +52,7 @@ const Products = ({ searchQuery = '' }) => {
   // --- SEARCH LOGIC ---
   
   // 1. Filter products based on search query (case-insensitive)
-  const filteredProducts = fakeProducts.filter(product =>
+  const filteredProducts = productCards.filter(product =>
     product.code.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
@@ -64,7 +64,7 @@ const Products = ({ searchQuery = '' }) => {
   // If not searching: Show limited products on mobile, all on desktop
   const displayedProducts = isSearching 
     ? filteredProducts 
-    : (isMobile ? fakeProducts.slice(0, visibleCount) : fakeProducts)
+    : (isMobile ? productCards.slice(0, visibleCount) : productCards)
 
   return (
     <section id='products' className='scroll-mt-24 font-manrope w-full bg-dark-brown'>
@@ -88,7 +88,7 @@ const Products = ({ searchQuery = '' }) => {
                2. We are NOT currently searching (so results aren't cut off)
                3. There are actually products to toggle
             */}
-            {isMobile && !isSearching && fakeProducts.length > 3 && (
+            {isMobile && !isSearching && productCards.length > 3 && (
               <Button onClick={handleToggle} className='mt-1 sm:hidden'>
                 {!isHiding ? t('products.moreView') : t('products.lessView')}
               </Button>
