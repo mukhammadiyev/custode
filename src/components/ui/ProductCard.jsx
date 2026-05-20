@@ -18,7 +18,7 @@ const ProductCard = ({ image, modelCode }) => {
 
       {/* Content Area */}
       <div className="w-full px-2 text-left pb-3">
-        <h3 className="text-white font-extrabold mb-1.5 text-2xl lg:text-3xl lg:mb-4">
+        <h3 className="text-white font-extrabold mb-1.5 text-2xl lg:text-[26px] lg:mb-3">
           {modelCode}
         </h3>
         
